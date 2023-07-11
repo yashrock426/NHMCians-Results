@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+}
+
+.top {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(68, 38, 151);
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.flag {
+    height: 14px;
+    width: 15px;
+    margin: 3px;
+}
+
+.left-side {
+    display: flex;
+    margin: 20px;
+}
+
+.name {
+    margin: 10px;
+}
+
+.right-side img {
+    height: 110px;
+    width: 130px;
+
+}
+
+.top1 {
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+}
+
+.top2 {
+    background-image: url(banner.png);
+    width: 100%;
+    height: 375px;
+    background-repeat: no-repeat;
+}
+
+.arvind img {
+    height: 140px;
+    width: 150px;
+    clip-path: circle(45.8% at 50% 50%);
+}
+
+.saurabh img {
+    height: 140px;
+    width: 150px;
+    clip-path: circle(45.8% at 50% 50%);
+
+
+}
+
+.top2 {
+    display: flex;
+    justify-content: space-between;
+
+    /* margin: 2px; */
+}
+
+.arvind {
+    /* border: 1px solid black; */
+    height: 200px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    width: 150px;
+}
+
+.saurabh {
+    /* border: 1px solid black; */
+    height: 200px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    width: 150px;
+
+}
+
+.top2 h6 {
+    font-size: 17px;
+    line-height: 16px;
+    color: var(--black);
+
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.top2 h6 small {
+    font-weight: 100;
+}
+
+h1 {
+    text-align: center;
+}
+
+.results {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h5,
+p {
+    text-align: center;
+}
+
+.card-body a {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.pdf {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+
+}
+
+.pdf a {
+    margin: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.pdf a:hover {
+    color: red;
+}
+
+.pdf p {
+    font-size: 1.5rem;
+    margin: 10px;
+
+
+}
+
+.link {
+    display: flex;
+    border: 2px solid black;
+    margin: 5px 280px;
+    /* width: 40%; */
+    justify-content: center;
+    background-color: rgb(182, 216, 238);
+    box-shadow: 0 0 5px black;
+}
+
+.link:hover {
+    box-shadow: 0 0 20px black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.link>div {
+    font-size: 1.5rem;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.topper {
+
+    box-shadow: 0 0 10px black;
+}
+
+.topper:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 30px black;
+    cursor: pointer;
+}
+
+footer {
+
+    background-color: rgb(35, 97, 231);
+    height: 50px;
+    word-spacing: 20px;
+    text-align: center;
+
+
+}
+
+.copy {
+    display: flex;
+    float: right;
+    word-spacing: normal;
+    margin: 0 10px;
+    color: white;
+}
+
+.social {
+    margin-left: 190px;
+}
+
+.social a {
+    color: white;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: rgb(12, 12, 12);
+    text-decoration: underline;
+    cursor: pointer;
+    /* font-size: 1.1rem; */
+
+}
+
+footer a {
+    position: relative;
+    top: 10px;
+}
+
+.copy {
+    position: relative;
+    top: 10px;
+}
+
+@media screen and (max-width:1085px) {
+    .top1 {
+        /* display: flex; */
+        flex-wrap: wrap;
+        /* background-color: rgb(243, 150, 11); */
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .left-side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 13px;
+        
+    }
+    .left-side h3{
+        font-size: 1.2rem;
+    }
+    .right-side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        
+
+
+    }
+    .topper{
+        margin: 20px;
+    }
+
+    
+    header{
+        width: 100%;
+    }
+    .results{
+        flex-wrap: wrap;
+    }
+    .link{
+        flex-wrap:wrap; 
+        margin: 10px 25px;
+    }
+    .social{
+        display: flex;
+        position: absolute;
+        /* left: 0 15px; */
+        margin: -8px 20px;
+    }
+
+}
